@@ -69,6 +69,11 @@ module.exports = {
         },
       ],
     },
+    vuex: {
+      when: 'isNotTest',
+      type: 'confirm',
+      message: 'Install vuex?',
+    },
     router: {
       when: 'isNotTest',
       type: 'confirm',
